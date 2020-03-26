@@ -65,9 +65,10 @@ export const IncidentsList = styled.ul`
       right: 24px;
       top: 24px;
       border: 0;
+      background: transparent;
 
       &:hover {
-        opacity: 0.8;
+        opacity: 0.7;
       }
     }
 
