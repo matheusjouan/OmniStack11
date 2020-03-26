@@ -1,15 +1,15 @@
-# OmniStack11
+# OmniStack11 - BE THE HERO
 
-Projeto desenvolvido na semana OmniStack 11, realizado pela RocketSeat. A aplicação, de forma resumida, baseia-se em disponibilizar um local para que ONGs possam realizar um cadastro e divulgar casos, para que usuários, que tenha disponibilidade, possam colaborar, fazendo uma doação, para um determinado caso e se tornando um herói.
+Projeto desenvolvido na semana OmniStack 11, realizado pela RocketSeat. A aplicação, de forma resumida, baseia-se em disponibilizar um local para que ONGs possam realizar um cadastro e divulgar casos, para que usuários, que tenham disponibilidade, possam colaborar, fazendo uma doação, para um determinado caso e se tornando um herói.
 
-Foram utilizas as seguintes tecnologia:
+# Foram utilizas as seguintes tecnologia:
  - Node: backend
  - ReactJS: frontend
  - React Native: mobile
  
  Foi utilizado ESLint e o Prettier para manter uma padronização do código, utilizando as regras da airbnb.
  
- Também foram utilizados várias ferramentas, tais como:
+ # Principais ferramentas
  
   - jsonwebtoken (NodeJS): Autenticação.
   - yup (NodeJS): Validação dos dados da requisição.
@@ -18,6 +18,7 @@ Foram utilizas as seguintes tecnologia:
   - styled-components (ReactJS e Native): estilização de forma otimizada.
   - expo (Native): permite o fácil acesso às API's nativas do dispositivo sem precisar instalar qualquer dependência.
    
+ # Utilização
  
 Para utilizar o aplicativo, baixar todas as dependências utilziadas, utilizando o comando: yarn
 
