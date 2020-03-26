@@ -7,8 +7,8 @@ class IncidentController {
     const { page = 1 } = req.query;
 
     const incidents = await Incident.findAll({
-      limit: 10,
-      offset: (page - 1) * 10,
+      limit: 6,
+      offset: (page - 1) * 6,
       include: [
         {
           model: Ong,

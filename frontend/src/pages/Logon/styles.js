@@ -46,4 +46,8 @@ export const Form = styled.form`
       margin-right: 8px;
     }
   }
+
+  a + a {
+    margin-top: 30px;
+  }
 `;

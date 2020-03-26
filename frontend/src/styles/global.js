@@ -65,6 +65,23 @@ export default createGlobalStyle`
     transition: filter 0.2s;
   }
 
+  .button2 {
+    width: 100%;
+    height: 60px;
+    background: #1a22FF;
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: filter 0.2s;
+  }
+
 
   .button:hover {
       filter: brightness(90%);

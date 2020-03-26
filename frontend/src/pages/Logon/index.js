@@ -54,6 +54,10 @@ export default function Logon() {
           <Link to="/register">
             <FiLogIn size={16} color="#E02141" /> Não tenho cadastro
           </Link>
+
+          <Link to="/incidents">
+            <FiLogIn size={16} color="#00E" /> Visualizar casos
+          </Link>
         </Form>
       </Section>
       <img src={heroesImg} alt="heros" />
