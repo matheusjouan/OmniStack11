@@ -1,3 +1,26 @@
 # OmniStack11
 
-Projeto desenvolvido na semana OmniStack 11, realizado pela RocketSeat. A aplicação se baseia em disponibilizar um local para ONGs possam faze um cadastro e divulgar casos, para que usuários possam colaborar com algum caso, fazendo uma doação, e se tornando um herói.
+Projeto desenvolvido na semana OmniStack 11, realizado pela RocketSeat. A aplicação, de forma resumida, baseia-se em disponibilizar um local para que ONGs possam realizar um cadastro e divulgar casos, para que usuários, que tenha disponibilidade, possam colaborar, fazendo uma doação, para um determinado caso e se tornando um herói.
+
+Foram utilizas as seguintes tecnologia:
+ - Node: backend
+ - ReactJS: frontend
+ - React Native: mobile
+ 
+ Foi utilizado ESLint e o Prettier para manter uma padronização do código, utilizando as regras da airbnb.
+ 
+ Também foram utilizados várias ferramentas, tais como:
+ 
+  - jsonwebtoken (NodeJS): Autenticação.
+  - yup (NodeJS): Validação dos dados da requisição.
+  - sequelize (NodeJS): ORM para NodeJS
+  - bcrypt (NodeJS): criptografia dos dados
+  - styled-components (ReactJS e Native): estilização de forma otimizada.
+  - expo (Native): permite o fácil acesso às API's nativas do dispositivo sem precisar instalar qualquer dependência.
+   
+ 
+Para utilizar o aplicativo, baixar todas as dependências utilziadas, utilizando o comando: yarn
+
+Configurar o arquivo .env (como um modelo .env.example), onde é necessário colocar todas as credências do banco de dados, e da chave para geração do token.
+
+
