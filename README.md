@@ -20,8 +20,12 @@ Projeto desenvolvido na semana OmniStack 11, realizado pela RocketSeat. A aplica
    
  # Utilização
  
-Para utilizar o aplicativo, baixar todas as dependências utilziadas, utilizando o comando: yarn
+Para utilizar o aplicativo, baixar todas as dependências utilziadas na aplicação: utilizando o comando: yarn
 
 Configurar o arquivo .env (como um modelo .env.example), onde é necessário colocar todas as credências do banco de dados, e da chave para geração do token.
+
+Start do back end: yarn start
+Start do frontend: yarn start
+Start do mobile: baixar o EXPO no google store ou app store, utilizar o comando yarn start e scanear o QRCODE com a câmera do celular.
 
 
